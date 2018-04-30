@@ -1,0 +1,167 @@
+/* Gennerelle indstillinger */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* siden sidder fast husk */
+}
+
+body {
+    background-color: #fbfaf2;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+/* Font indstillinger */
+
+/* p */
+
+@font-face {
+    font-family: 'hk_groteskregular';
+    src: url('webfontkit-hk/hkgrotesk-regular-webfont.woff2') format('woff2'),
+    url('webfontkit-hk/hkgrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'hk_groteskregular';
+    padding: 7px 30px;
+}
+
+/* h1 */
+
+@font-face {
+    font-family: 'hk_groteskbold';
+    src: url('webfontkit-hk/hkgrotesk-bold-webfont.woff2') format('woff2'),
+    url('webfontkit-hk/hkgrotesk-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'hk_grotesksemibold';
+    padding-left: 30px;
+    margin-top: 40px;
+
+}
+
+/* h2 */
+
+@font-face {
+    font-family: 'hk_grotesksemibold';
+    src: url('webfontkit-hk/hkgrotesk-semibold-webfont.woff2') format('woff2'),
+    url('webfontkit-hk/hkgrotesk-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'hk_grotesksemibold';
+}
+
+h2 {
+    font-family: 'hk_grotesksemibold';
+    padding: 30px;
+
+}
+
+/* h3 */
+
+@font-face {
+    font-family: 'hk_groteskmedium';
+    src: url('webfontkit-hk/hkgrotesk-medium-webfont.woff2') format('woff2'),
+    url('webfontkit-hk/hkgrotesk-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h3 {
+    font-family: 'hk_groteskmedium';
+
+}
+
+/* a */
+
+@font-face {
+    font-family: 'hk_grotesklight';
+    src: url('webfontkit-hk/hkgrotesk-light-webfont.woff2') format('woff2'),
+    url('webfontkit-hk/hkgrotesk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    font-family: 'hk_grotesklight';
+    text-decoration: none;
+    color: #3053a3;
+
+}
+
+
+/* header indstillinger */
+
+header img {
+    width: 75%;
+    height: auto;
+}
+
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    /*ligger fast på skærmen */
+}
+
+nav a {
+    border-style: solid;
+    text-decoration: none;
+    margin: 5px;
+    border-width: 2px;
+    border-color: #3053a3;
+    color: #3053a3;
+    padding: 5px;
+    font-family: 'hk_grotesklight';
+
+}
+
+nav a:hover {
+    /*color: #67c2b0;*/
+    border-color: #67c2b0;
+
+}
+
+/* resturant billeder */
+
+.logobilleder {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 300px;
+
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: inherit;
+
+}
+
+.image2 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
